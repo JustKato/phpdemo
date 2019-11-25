@@ -20,12 +20,23 @@ html, body {
     overflow-x: hidden;
 
     color: var(--late0);
+    /* background: #2f3236; */
     background: var(--gradient-down);
 }
 
 .main-wrapper {
     display: flex;
-    flex-flow: column;   
+    flex-flow: column;
+}
+
+.main-wrapper.full {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-wrapper.center {
+    justify-content: center;
+    align-content: center;
 }
 
 .container {

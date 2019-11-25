@@ -1,7 +1,4 @@
 <?php
-echo "Hey, seems like the page works, here's the date and time: " . date('Y-m-d H:i:s');
-
-
-
-
-
+header('./page/register');
+echo "<h1>Hey, you're not allowed here!</h2>";
+exit();

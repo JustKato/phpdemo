@@ -6,14 +6,17 @@
 
     --black: #222;
     --black0: #161719;
+    --black1: #2f3236;
+    --black2: #2f3236;
 
     --bg-purple: #01001f;
 
-    --accent-red: #d44b4e;
+    --accent-red: #d48a8b;
     --accent-orange: #e97157;
     --accent-green: #72ae51;
 
     --accent-bg: #1b2838;
 
-    --gradient-down: linear-gradient( 60deg, #1b2838 55%, #444444 150%);
+    --gradient-down: linear-gradient( 0deg, #2f3236 11%, rgb(16, 16, 16) 260%);
+    /* --gradient-down: linear-gradient( 60deg, #1b2838 55%, #444444 150%); */
 }
