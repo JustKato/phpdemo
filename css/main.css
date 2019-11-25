@@ -1,0 +1,27 @@
+@import "/css/fonts.css";
+@import "/css/containers.css";
+@import "/css/colors.css";
+@import "/css/inputs.css";
+
+:root {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Raleway', 'Roboto', 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-flow: column;   
+}
+
+.container {
+    padding: 2rem;
+}
