@@ -19,6 +19,7 @@ html, body {
 
     overflow-x: hidden;
 
+    color: var(--late0);
     background: var(--gradient-down);
 }
 
