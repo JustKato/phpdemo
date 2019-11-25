@@ -1,3 +1,3 @@
 <?php
 echo "Working...<br><br>";
-echo exec('whoami');
+echo exec('git pull origin master');
