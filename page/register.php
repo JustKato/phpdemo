@@ -1,4 +1,4 @@
-<?php include '/headers/header'; ?>
+<?php include '/headers/header'; echo "a"; ?>
 
 <form action="/api/register.php" method="post">
 
