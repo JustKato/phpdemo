@@ -1,4 +1,4 @@
-<?php echo file_get_contents(asd); ?>
+<?php include '../headers/header.php'; ?>
 
 <form action="/api/register.php" method="post">
 
@@ -32,4 +32,4 @@
 
 </form>
 
-<?php echo file_get_contents('/headers/footer'); ?>
+<?php include '../headers/footer.php'; ?>
