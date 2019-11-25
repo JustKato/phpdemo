@@ -12,4 +12,8 @@
     --accent-red: #d44b4e;
     --accent-orange: #e97157;
     --accent-green: #72ae51;
+
+    --accent-bg: #1b2838;
+
+    --gradient-down: linear-gradient( 60deg, #1b2838 55%, #444444 150%);
 }

@@ -1,7 +1,10 @@
+@import "/css/design.css";
+
 @import "/css/fonts.css";
 @import "/css/containers.css";
 @import "/css/colors.css";
 @import "/css/inputs.css";
+
 
 :root {
     scroll-behavior: smooth;
@@ -15,6 +18,8 @@ html, body {
     min-height: 100vh;
 
     overflow-x: hidden;
+
+    background: var(--gradient-down);
 }
 
 .main-wrapper {
