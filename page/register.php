@@ -1,4 +1,4 @@
-<?php include('/headers/header.php'); ?>
+<?php include('/headers/header'); ?>
 
 <form action="/api/register.php" method="post">
 
@@ -32,4 +32,4 @@
 
 </form>
 
-<?php include('/headers/footer.php'); ?>
+<?php include('/headers/footer'); ?>
