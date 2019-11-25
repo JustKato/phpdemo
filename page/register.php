@@ -1,4 +1,4 @@
-<?php echo file_get_contents('/headers/header'); ?>
+<?php echo file_get_contents(asd); ?>
 
 <form action="/api/register.php" method="post">
 
