@@ -1,9 +1,6 @@
-<style>
-    
-</style>
-
 <?php include '../headers/header.php'; ?>
 <div class="main-wrapper center full">
+    <div class="bg_img"></div>
     <form class="flex col center middle" action="/api/register.php" method="post">
 
         <div class="form-title">Login</div>

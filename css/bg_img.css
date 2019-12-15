@@ -1,0 +1,19 @@
+.bg_img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url(https://www.simonstalenhag.se/bilder/l_ash10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+    filter: contrast(1.15) brightness(0.8);
+    box-shadow: inset 0 0 10rem 5rem #25292c;
+
+    z-index: 0;
+}
+
+form {
+    z-index: 1;
+}
