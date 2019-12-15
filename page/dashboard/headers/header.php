@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <meta name="description" content="A demo website to show-off">
     <meta name="keywords" content="HTML,CSS,JavaScript,PHP">
-    <meta name="author" content="Kato Twofold">
+    <meta name="author" content="Dumitrascu Valeriu Daniel">
     <title>Licenta - Dumitrascu Valeriu</title>
 </head>
 <body>

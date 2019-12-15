@@ -1,0 +1,10 @@
+    /* Flex Fixing */
+    .flex { display: flex; }
+
+    .flex.row { flex-flow: row; }
+
+    .flex.col { flex-flow: column; }
+
+    .flex.center { align-items: center; justify-content: center; }
+
+    .flex.left { align-items: left; }

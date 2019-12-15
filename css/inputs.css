@@ -50,6 +50,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     border: 1px solid var(--late0);
     -webkit-text-fill-color: var(--late0);
+    box-shadow: 0 0 0px 23230px #3a3f45 inset;
     -webkit-box-shadow: 0 0 0px 23230px #3a3f45 inset;
     background-color: black;
 }
