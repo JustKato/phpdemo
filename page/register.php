@@ -34,7 +34,7 @@
         </div>
         <br>
 
-        <input class="button" type="submit" value="Sign Up">
+        <input onclick="register()" class="button" type="button" value="Sign Up">
         <p>Looking to <a href="/page/login">Log in</a>?</p>
         
 
@@ -42,3 +42,40 @@
 
     <?php include '../headers/footer.php'; ?>
 </div>
+
+<script>
+        function register() {
+            let data = {};
+            Array.from($(`input`)).forEach(field => { data[$(field).attr('name')] = $(field).val(); })
+
+            if ( data.password.length < 6 ) {
+                swal.fire({ icon : 'error', title: "Failed To Login", text : "Password must be at least 6 characters in length!" });
+                return;
+            }
+
+            if ( data['password'] !== data['password_check'] ) {
+                swal.fire({ icon : 'error', title: "Failed To Login", text : "Password and Password Check don't match!" });
+                return;
+            }
+
+            $.ajax({
+                url: `/api/register`,
+                type: `POST`,
+                data: data,
+                success: msg => {
+                    swal.fire({
+                        icon: 'success',
+                        title: "Successfully Registered!",
+                        text: msg.message
+                    }).then( result => { window.location.href = "/page/login"; });
+                },
+                error: msg => {
+                    swal.fire({
+                        icon : 'error',
+                        title: "Failed To Create account",
+                        text : "Account creation has failed, please try again!"
+                    });
+                }
+            })
+        }
+    </script>
