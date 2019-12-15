@@ -1,7 +1,7 @@
 <?php include '../headers/header.php'; ?>
 <div class="main-wrapper center full">
     <div class="bg_img"></div>
-    <form class="flex col center middle" action="/api/register.php" method="post">
+    <form class="flex col center right modal" action="/api/register.php" method="post">
 
         <div class="form-title">Login</div>
         <hr style="width: 80%; border-bottom: none; border-left: none; border-right: none;">

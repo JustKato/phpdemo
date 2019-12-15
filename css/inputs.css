@@ -57,15 +57,22 @@ select:-webkit-autofill:focus {
 
 /*                      Form */
 
-form.middle {
+form.modal {
     max-width: 40rem;
     background-color: #3a3f45;
     border: 1px solid rgba(0, 0, 0, 0.75);
     border-radius: .5rem;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
     
-    margin: 0 auto;
     padding: 1rem 1rem;
+}
+
+form.middle {
+    margin: 0 auto;
+}
+
+form.right {
+    margin: auto 4rem auto auto;
 }
 
 form .form-title {
