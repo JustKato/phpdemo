@@ -6,5 +6,9 @@
     .flex.col { flex-flow: column; }
 
     .flex.center { align-items: center; justify-content: center; }
+    
+    .flex.hcenter { align-items: center;}
+    
+    .flex.vcenter { justify-content: center; }
 
     .flex.left { align-items: left; }

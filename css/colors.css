@@ -16,6 +16,7 @@
     --accent-green: #72ae51;
 
     --accent-bg: #1b2838;
+    --accent-bg0: #21262c;
 
     --gradient-down: linear-gradient( 0deg, #2f3236 11%, rgb(16, 16, 16) 260%);
     /* --gradient-down: linear-gradient( 60deg, #1b2838 55%, #444444 150%); */
